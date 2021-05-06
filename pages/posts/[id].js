@@ -10,7 +10,7 @@ import BlogLayout from "../../components/blogLayout";
 const renderers = {
     // convert normal JSX image to Next JS <Image />
     img: image => {
-        return <Image src={image.src} alt={image.alt} height="200" width="355" />
+        return <Image src={image.src} alt={image.alt} height={400} width={600} />
     },
     // The markdown adds everything inside p tags.
     // We can't have an image inside a p tag
@@ -19,7 +19,7 @@ const renderers = {
         const { node } = paragraph;
         if (node.children[0].type === "element" && node.children[0].tagName === 'img') {
             const image = node.children[0].properties
-            return <Image src={image.src} alt={image.alt} height="200" width="355" />;
+            return <Image src={image.src} alt={image.alt} height={400} width={600} />
         }
         return <p>{paragraph.children}</p>;
     },
