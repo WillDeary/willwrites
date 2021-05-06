@@ -10,15 +10,9 @@ export default function Footer() {
                     All content written by me, myself and I
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-                  <a className="text-gray-500">
-                    <SocialIcon url="https://github.com/WillDeary" />
-                  </a>
-                  <a className="ml-3 text-gray-500">
-                      <SocialIcon url="https://www.instagram.com/willdeary" />
-                  </a>
-                  <a className="ml-3 text-gray-500">
-                      <SocialIcon url="https://www.linkedin.com/in/william-deary-017319151/" />
-                  </a>
+                    <SocialIcon className="ml-3 text-gray-500" url="https://github.com/WillDeary" />
+                    <SocialIcon className="ml-3 text-gray-500" url="https://www.instagram.com/willdeary" />
+                    <SocialIcon className="ml-3 text-gray-500" url="https://www.linkedin.com/in/william-deary-017319151/" />
                 </span>
             </div>
         </footer>
