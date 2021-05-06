@@ -1,11 +1,9 @@
-import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Date from "./date";
 import Image from "next/image";
 
 export function HomeScreenBlogs({allPostData}) {
     return (
-
         <section className="text-gray-600 body-font overflow-hidden">
             <div className="container px-5 py-12 mx-auto">
                 <div className="flex flex-wrap -m-12">
