@@ -13,8 +13,6 @@ export function HomeScreenBlogs({allPostData}) {
                             <div
                                 className="px-12 pt-4 flex flex-col items-start border-b-2 border-gray-100 cursor-pointer">
                                     <span
-                                        {/*Disgusting way to do this, however tailwind purges dynamic classnames
-                                        so this is the work around. If we add more colors add then in here.... Puke */}
                                         className={`inline-block py-1 px-2 rounded                                        
                                         ${color === 'yellow' ? 'bg-yellow-50 text-yellow-500 ' 
                                             : color === 'blue' ? 'bg-blue-50 text-blue-500 ' 
