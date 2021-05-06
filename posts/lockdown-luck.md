@@ -6,7 +6,7 @@ Here I want to take a look at some of the positive spins of the Corona Virus loc
 the good things that have come out of it and to thank all the key workers.'
 category: 'Covid-19'
 color: 'red'
-image: 'https://picsum.photos/200/500'
+image: '/images/thankyou.jpg'
 ---
 
 
@@ -66,7 +66,7 @@ While we still can't physically be together, we have started a weekly family gro
 a quiz together. It's a great way for us to all stay in contact with each other and it gives the week some structure.
 I know that every Sunday we will all sit down for a chat and a quiz.
 
-![bao-buns]({{ '/images/baob.jpg' | absolute_url }}){: .align-right}
+![bao-buns](/images/baob.jpg)
 
 Cooking was always a passion of mine too, but normally I would never bother to spend more than an hour
 cooking for myself. Since being stuck inside I have cooked several meals I wouldn't have bothered to make.
@@ -75,12 +75,14 @@ and the buns made in the morning before being steamed just before dinner. It was
 
 I did some tasks to help around the house, I helped my parents dig out and fill with gravel some steps around the garden. As a fit youth this was a lot easier for me to do than it was for them. So I was happy to help.
 
-![steps]({{ '/images/steps.jpg' | absolute_url }}){: .align-center}
+
+![steps](/images/steps.jpg)
 
 
 We also try to do small things for each other. My Father has really missed going to the pub, he has been doing it for the last 50 years so I don't blame him! My Mother and I decided we would convince him to go for a walk on the beach (which he hates, normally he does it with his eyes set on the pub after). What my Father didn't know was we actually had packed him a few beers and a bottle of wine which we all enjoyed together on the beach. Little things like this have really made the difference for us in lockdown.
 
-![steps]({{ '/images/beach.jpg' | absolute_url }}){: .align-center}
+
+![beach](/images/beach.jpg)
 
 
 Overall, yes lockdown has been a very boring and stressful time for the most of us. However now we are past the initial shock of being trapped in our own homes, we can make the most of our time. Learn new skills, finally read that book we have always wanted to read but never found the time to read, stay connected with our family and friends and let them know we support them in these times. And most importantly, take some time to finally relax and appreciate the things we had before the lockdown started.

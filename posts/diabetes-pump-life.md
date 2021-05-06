@@ -26,7 +26,9 @@ graph of what has happened to your blood glucose over the last few hours. So, us
 create our basal patterns. My basal and glucose patterns look like this:
 
 
-![NextJS logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/440px-Nextjs-logo.svg.png "NextJS Logo")
+![Basal-rates](/images/basal.png)
+
+![patterns](/images/patterns.jpg)
 
 
 

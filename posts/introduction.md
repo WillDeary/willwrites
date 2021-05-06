@@ -41,7 +41,8 @@ That's how I became a programmer. I finished my first two years of uni, and now 
 hiatus, which was to train for the Olympics. Now that the Corona virus has got in the way I will have to have another
 year off. What a shame...
 
-![image-center]({{ '/images/shout.jpg' | absolute_url }}){: .align-left}
+![Shouting](/images/shout.jpg "Will Shouting")
+
 
 
 Now I live and train in Germany, until the Olympic cycle is over. This was supposed to be in April, however Corona

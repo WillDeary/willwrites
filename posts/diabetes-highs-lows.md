@@ -132,7 +132,7 @@ I got through it by preparing what I called my diabetes bag, it never left me, I
 - My BG meter. Used to test my blood glucose
 - More food, normally in the form of some kind of bar. (Now I use Nature Valley bars - Not sponsored)
 
-![backpack-image]({{ '/images/bp.jpg' | absolute_url }}){: .align-center}
+![backpack-image](/images/bp.jpg)
 
 
 I'll tell you what, having this bag on me has definitely saved me, sometimes hypos hit at the worst possible opportunity.  
