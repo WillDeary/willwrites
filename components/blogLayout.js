@@ -8,7 +8,7 @@ import Footer from "./footer";
 const name = 'William Deary'
 export const siteTitle = 'Will Writes'
 
-export default function BlogLayout({ children, date }) {
+export default function BlogLayout({ children, date, readTime }) {
     return (
         <>
         <section className="text-gray-600 body-font">
@@ -37,7 +37,7 @@ export default function BlogLayout({ children, date }) {
                                         <div>
                                             {/*    Can put witty comment here*/}
                                             <Date dateString={date} />
-                                            <p><small>4 min read</small></p>
+                                            <p><small>{readTime} min read</small></p>
                                         </div>
                                     </div>
                                 </div>

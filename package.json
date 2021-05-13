@@ -20,7 +20,8 @@
     "react-social-icons": "^5.2.0",
     "rehype-sanitize": "^4.0.0",
     "remark": "^13.0.0",
-    "remark-html": "^13.0.1"
+    "remark-html": "^13.0.1",
+    "words-count": "^2.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
