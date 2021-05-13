@@ -6,14 +6,14 @@ import Link from 'next/link'
 import Footer from "./footer";
 
 const name = 'Will Writes'
-export const siteTitle = 'Will Writes'
+export const    siteTitle = 'Will Writes'
 
 export default function Layout({ children, home }) {
     return (
         <>
         <div className={styles.container}>
             <Head>
-                <link rel="icon" href="../public/favicon.ico" />
+                <link rel="icon" href="/favicon.ico" />
                 <meta
                     name="description"
                     content="William Deary personal blog"

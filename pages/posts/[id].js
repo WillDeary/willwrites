@@ -60,9 +60,7 @@ export default function Post({postData}) {
                     </h1>
                     <ReactMarkdown children={postData.content} components={renderers} />
                 </article>
-
             </BlogLayout>
-
         </>
     )
 }
