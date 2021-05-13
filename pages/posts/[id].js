@@ -1,4 +1,5 @@
 import Layout from "../../components/layout";
+import wordsCount from "words-count";
 import {getAllPostsIds, getPostsData} from "../../lib/posts";
 import Head from "next/head";
 import Date from "../../components/date";
@@ -43,9 +44,11 @@ export async function getStaticPaths() {
 }
 
 export default function Post({postData}) {
+   const words = wordsCount(postData.content)
+    const readTime = Math.floor(words/200);
     return (
         <>
-            <BlogLayout date={postData.date}>
+            <BlogLayout date={postData.date} readTime={readTime}>
                 <Head >
                     <title>
                         {postData.title}
